@@ -5,8 +5,8 @@ board = [" "," "," "," "," "," "," "," "," "]
 
 puts "Welcome to Tic Tac Toe!"
 
-move(board, 4)
-move(board, 3, "O")
 
 display_board(board)
-turn(board)
+8_times do
+  turn(board)
+end
